@@ -5,9 +5,9 @@ const SPONSORSHIP_LETTER_URL = "https://example.com/sponsorship-letter";
 const sponsorLines = [
   { top: "\u00A0", bottom: "Contact" },
   { top: "Contact", bottom: "SUPPORT" },
-  { top: "SUPPORT", bottom: "INNOVATION" },
-  { top: "INNOVATION", bottom: "COLLABORATION" },
-  { top: "COLLABORATION", bottom: "CONNECT" },
+  { top: "SUPPORT", bottom: "INNOVATE" },
+  { top: "INNOVATE", bottom: "COLLAB" },
+  { top: "COLLAB", bottom: "CONNECT" },
   { top: "CONNECT", bottom: "\u00A0" },
 ];
 
