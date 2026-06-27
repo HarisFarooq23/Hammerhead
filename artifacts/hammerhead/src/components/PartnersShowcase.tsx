@@ -22,6 +22,41 @@ const partners = [
     logoClass: "text-[#FBCE07] font-rajdhani text-5xl font-black italic",
   },
   {
+    name: "Shell",
+    subtitle: "Shell",
+    description: "Eco-Marathon Official Partner & Competition Host",
+    accent: "border-[#FBCE07]/40",
+    logoClass: "text-[#FBCE07] font-rajdhani text-5xl font-black italic",
+  },
+  {
+    name: "Shell",
+    subtitle: "Shell",
+    description: "Eco-Marathon Official Partner & Competition Host",
+    accent: "border-[#FBCE07]/40",
+    logoClass: "text-[#FBCE07] font-rajdhani text-5xl font-black italic",
+  },
+  {
+    name: "Shell",
+    subtitle: "Shell",
+    description: "Eco-Marathon Official Partner & Competition Host",
+    accent: "border-[#FBCE07]/40",
+    logoClass: "text-[#FBCE07] font-rajdhani text-5xl font-black italic",
+  },
+  {
+    name: "Shell",
+    subtitle: "Shell",
+    description: "Eco-Marathon Official Partner & Competition Host",
+    accent: "border-[#FBCE07]/40",
+    logoClass: "text-[#FBCE07] font-rajdhani text-5xl font-black italic",
+  },
+  {
+    name: "Shell",
+    subtitle: "Shell",
+    description: "Eco-Marathon Official Partner & Competition Host",
+    accent: "border-[#FBCE07]/40",
+    logoClass: "text-[#FBCE07] font-rajdhani text-5xl font-black italic",
+  },
+  {
     name: "Your Brand",
     subtitle: "+ Your Brand",
     description:
