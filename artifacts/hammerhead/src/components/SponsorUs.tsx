@@ -3,8 +3,8 @@ import { LayeredText } from "@/components/LayeredText";
 const SPONSORSHIP_LETTER_URL = "https://example.com/sponsorship-letter";
 
 const sponsorLines = [
-  { top: "\u00A0", bottom: "SPONSOR" },
-  { top: "SPONSOR", bottom: "SUPPORT" },
+  { top: "\u00A0", bottom: "Contact" },
+  { top: "Contact", bottom: "SUPPORT" },
   { top: "SUPPORT", bottom: "INNOVATION" },
   { top: "INNOVATION", bottom: "ENGINEERING" },
   { top: "ENGINEERING", bottom: "PAKISTAN" },
