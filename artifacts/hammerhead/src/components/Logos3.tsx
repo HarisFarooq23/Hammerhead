@@ -45,6 +45,43 @@ const defaultLogos: Logo[] = [
     className: "h-8 w-auto",
   },
   {
+    id: "giki",
+    description: "GIK Institute",
+    image: gikiLogo,
+    className: "h-8 w-auto",
+  },
+  {
+    id: "giki",
+    description: "GIK Institute",
+    image: gikiLogo,
+    className: "h-8 w-auto",
+  },
+  {
+    id: "giki",
+    description: "GIK Institute",
+    image: gikiLogo,
+    className: "h-8 w-auto",
+  },
+  {
+    id: "giki",
+    description: "GIK Institute",
+    image: gikiLogo,
+    className: "h-8 w-auto",
+  },
+  {
+    id: "giki",
+    description: "GIK Institute",
+    image: gikiLogo,
+    className: "h-8 w-auto",
+  },
+  {
+    id: "giki",
+    description: "GIK Institute",
+    image: gikiLogo,
+    className: "h-8 w-auto",
+  },
+  
+  {
     id: "shell",
     description: "Shell Eco-Marathon",
     image: shellLogo,
