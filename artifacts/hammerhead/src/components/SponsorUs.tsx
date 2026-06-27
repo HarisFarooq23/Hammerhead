@@ -6,10 +6,9 @@ const sponsorLines = [
   { top: "\u00A0", bottom: "Contact" },
   { top: "Contact", bottom: "SUPPORT" },
   { top: "SUPPORT", bottom: "INNOVATION" },
-  { top: "INNOVATION", bottom: "ENGINEERING" },
-  { top: "ENGINEERING", bottom: "PAKISTAN" },
-  { top: "PAKISTAN", bottom: "HAMMERHEAD" },
-  { top: "HAMMERHEAD", bottom: "\u00A0" },
+  { top: "INNOVATION", bottom: "COLLABORATION" },
+  { top: "COLLABORATION", bottom: "CONNECT" },
+  { top: "CONNECT", bottom: "\u00A0" },
 ];
 
 export function SponsorUs() {
