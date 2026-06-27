@@ -1,0 +1,137 @@
+Our Mission
+Pioneering Clean Mobility
+Founded in 2009, Team Hammerhead GIKI is Pakistan's longest-running and most decorated student EV design team. Operating out of the GIK Institute, we bring together students from various engineering disciplines to solve the real-world challenges of sustainable transportation.
+
+Our work revolves around the design, simulation, fabrication, and testing of ultra-energy-efficient prototype vehicles. We compete internationally in the Shell Eco-Marathon, pushing technical limits to squeeze maximum distance from minimal electrical energy.
+
+Zero-Emission Engineering
+Developing battery-electric systems to accelerate the global transition to green energy.
+
+Student Innovation Lab
+Applying classroom theory to solve aerodynamics, composite fabrication, and power electronics challenges.
+
+Team Hammerhead 1st Position Trophy SEM 2021Hammerhead Logo
+EST. 2009
+Engineering Pillars
+Our Core Competencies
+Composite Chassis
+Aerodynamic carbon-fiber shells and ultra-lightweight space frames engineered in SOLIDWORKS and simulated in ANSYS for minimum drag.
+
+Power Electronics
+Custom MOSFET driver boards, regenerative braking circuitry, and optimized throttle control systems to minimize transmission power loss.
+
+Smart Battery & BMS
+Smart Lithium-Ion cells management with active temperature sensors, over-current cutoff relays, and live cell balancing protocols.
+
+Telemetry & Strategy
+IoT nodes transferring sensor data via CAN bus and LoRa wireless to pit lane monitors, optimizing real-time fuel-to-range driving strategy.
+
+Engineering
+Technical Specifications
+Explore the advanced technical frameworks powering our prototype electric vehicles, designed and fabricated completely from scratch by our student engineers.
+
+
+Aerodynamics & Chassis
+VIEW DETAILS
+
+Battery & Safety BMS
+VIEW DETAILS
+
+Custom Powertrain
+VIEW DETAILS
+
+IoT Live Telemetry
+VIEW DETAILS
+Aerodynamics & Chassis
+Engineered for absolute minimal drag and ultra-low weight, utilizing custom composite layups.
+
+Body Material
+Carbon-Fiber Composite (CFRP)
+Aerodynamic Drag
+0.15 Cd (Optimized)
+Chassis Type
+Aluminum Space-Frame
+Dry Vehicle Weight
+45 kg
+
+
+
+Achievements
+Raising Pakistan's Flag Higher
+A legacy of excellence at Shell Eco-Marathon — from national champions to top performers on the international stage.
+
+2026
+Spirit Award 🏆
+Won Spirit of Shell Eco-Marathon
+Awarded the Spirit of Shell Eco-Marathon at SEM Asia 2026 held at Lusail Stadium, Qatar — recognizing our passion and team spirit on the international stage.
+
+2022
+4th Worldwide
+4th Worldwide in Pitch the Future
+Secured 4th position worldwide in Shell's Pitch the Future competition — showcasing our vision for sustainable mobility to a global audience.
+
+2021
+🥇 No. 1
+No. 1 in SEM Pakistan
+Won the Battery Electric Prototype category nationwide at Shell Eco-Marathon Pakistan, outperforming teams from across the country including NUST.
+
+2017
+&
+2014
+6th Position Asia
+6th Position in Prototype Battery Electric
+Secured 6th position on the Asia leaderboard at Shell Eco-Marathon in both 2014 and 2017 seasons, achieving a peak efficiency of 331 km/kWh.
+
+Our Team
+Engineering Departments
+A multidisciplinary team of GIKI students across mechanical, electrical, and software engineering — united by one mission.
+
+Team Hammerhead GIKI Full Team Photo
+Team Hammerhead GIKI
+Developing eco-friendly automotive solutions since 2009
+
+SUB-TEAMS & SPECIALIZATIONS
+Electrical
+Power, Control & Telemetry
+
+Designing custom battery management boards, power distribution units, MOSFET control modules, and the low-voltage harness wiring.
+
+Mechanical
+Chassis, Suspension & Aero
+
+Optimizing chassis dynamics, aerodynamic profiles, carbon-fiber layups, suspension geometries, and steering linkages.
+
+Autonomous
+AI Pathing & Sensor Fusion
+
+Developing computer vision algorithms, real-time path planning, navigation controllers, and sensor fusion modules for driverless operations.
+
+Operations
+Strategy & Logistics
+
+Managing overall project timelines, logistics, race strategy, resource allocations, and international competition preparation.
+
+Sponsorships
+Corporate Partnerships
+
+Securing corporate partnerships, managing sponsor relationships, pitching to tech leaders, and maintaining budget visibility.
+
+Communications & Promotions
+PR & Brand Marketing
+
+Leading public relations, brand marketing campaigns, media outreach, social promotions, and representing the team globally.
+
+Partners
+Supported By
+Our journey is made possible through the support of GIK Institute and our valued sponsors.
+
+GIKI
+GIK Institute
+Ghulam Ishaq Khan Institute of Engineering Sciences & Technology
+Shell
+Shell
+Eco-Marathon Official Partner & Competition Host
++
+Your Brand
+Become a sponsor and support Pakistan's brightest engineering talent
+Get in Touch →

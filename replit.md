@@ -1,44 +1,59 @@
-# [Project name]
+# Team Hammerhead GIKI
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A bold, dark motorsport team website for Team Hammerhead GIKI — Pakistan's university battery-electric vehicle racing team, competing in Shell Eco-Marathon.
 
 ## Run & Operate
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
+- `pnpm --filter @workspace/hammerhead run dev` — run the frontend (dev, port assigned by workflow)
+- `pnpm --filter @workspace/hammerhead run typecheck` — typecheck the frontend
 - `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
 
 ## Stack
 
 - pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
+- Frontend: React + Vite, Tailwind CSS v4, Framer Motion
+- Shader background: `@paper-design/shaders-react` (GrainGradient, WebGL — with CSS gradient fallback)
+- Loader: ArcRevealHero with animated word cycling + curved curtain reveal
+- Gallery: Apple Cards Carousel (custom React/Vite port, no Next.js)
+- Typography: Rajdhani (Google Fonts) for display headings, Inter for body
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/hammerhead/src/pages/Home.tsx` — full homepage composition
+- `artifacts/hammerhead/src/components/ArcRevealHero.tsx` — session-once loader
+- `artifacts/hammerhead/src/components/GrainBackground.tsx` — WebGL shader with CSS fallback
+- `artifacts/hammerhead/src/components/AppleCarousel.tsx` — horizontal photo gallery
+- `artifacts/hammerhead/src/components/Navbar.tsx` — fixed top navigation
+- `artifacts/hammerhead/src/index.css` — Tailwind v4 theme tokens + font imports
+- `attached_assets/` — team logo and photos (aliased as @assets in Vite and TS)
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- Presentation-first: no backend needed for the homepage
+- WebGL is detected synchronously before rendering the shader (avoids crash in headless/no-WebGL environments)
+- Loader uses sessionStorage key so it only plays once per browser session
+- Images imported via `@assets/*` Vite alias pointing to `attached_assets/`
+- Font utility `font-rajdhani` registered in Tailwind @theme block
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+A single-page homepage featuring:
+1. ArcReveal intro loader with motorsport word sequence
+2. Full-screen hero with animated GrainGradient shader background (orange/amber/pink)
+3. Fixed navbar with logo, nav links, and Contact CTA
+4. Photo gallery carousel (Shell Eco-Marathon team photos)
+5. Footer
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+_Populate as you build._
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- `.JPG` (uppercase) requires explicit TypeScript declarations in `src/vite-env.d.ts`
+- WebGL is unavailable in headless/screenshot browsers — the CSS gradient fallback handles this
+- The ArcReveal loader makes the first screenshot look black — this is expected
+- Framer Motion must be imported from `"framer-motion"`, not `"motion/react"`
 
 ## Pointers
 

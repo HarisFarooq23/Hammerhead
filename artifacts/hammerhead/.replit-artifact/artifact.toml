@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Team Hammerhead GIKI"
+version = "1.0.0"
+id = "artifacts/hammerhead"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24888
+
+[services.development]
+run = "pnpm --filter @workspace/hammerhead run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/hammerhead", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/hammerhead/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24888"
+BASE_PATH = "/"
