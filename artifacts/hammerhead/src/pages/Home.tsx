@@ -275,7 +275,7 @@ export function Home() {
         {/* ── Scroll reveal text ── */}
         <div className="relative z-20">
           <ScrollRevealText
-            text="BUILT IN PAKISTAN"
+            text="TRACK DOMINANCE"
             label="One mission. Relentless drive."
           />
         </div>
