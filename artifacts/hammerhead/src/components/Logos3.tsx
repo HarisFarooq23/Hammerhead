@@ -5,6 +5,12 @@ import {
   CarouselItem,
 } from "@/components/ui/carousel";
 import logoImg from "@assets/logo_1782316914888.png";
+import img1 from "@assets/Airblue-Logo.wine.svg";
+import img2 from "@assets/image-removebg-preview (6).png";
+import img3 from "@assets/redbull-logo-svgrepo-com (1).svg";
+import img4 from "@assets/image-removebg-preview (4).png";
+import img5 from "@assets/Screenshot 2026-06-28 204737.png
+import img6 from "@assets/image-removebg-preview (5).png";
 
 interface Logo {
   id: string;
@@ -38,67 +44,50 @@ const yourBrandLogo =
   );
 
 const defaultLogos: Logo[] = [
-  {
-    id: "giki",
-    description: "GIK Institute",
-    image: gikiLogo,
-    className: "h-8 w-auto",
-  },
-  {
-    id: "giki",
-    description: "GIK Institute",
-    image: gikiLogo,
-    className: "h-8 w-auto",
-  },
-  {
-    id: "giki",
-    description: "GIK Institute",
-    image: gikiLogo,
-    className: "h-8 w-auto",
-  },
-  {
-    id: "giki",
-    description: "GIK Institute",
-    image: gikiLogo,
-    className: "h-8 w-auto",
-  },
-  {
-    id: "giki",
-    description: "GIK Institute",
-    image: gikiLogo,
-    className: "h-8 w-auto",
-  },
-  {
-    id: "giki",
-    description: "GIK Institute",
-    image: gikiLogo,
-    className: "h-8 w-auto",
-  },
-  {
-    id: "giki",
-    description: "GIK Institute",
-    image: gikiLogo,
-    className: "h-8 w-auto",
-  },
   
-  {
-    id: "shell",
-    description: "Shell Eco-Marathon",
-    image: shellLogo,
-    className: "h-8 w-auto",
-  },
   {
     id: "hammerhead",
     description: "Team Hammerhead GIKI",
     image: logoImg,
     className: "h-12 w-auto",
   },
-  {
-    id: "your-brand",
-    description: "Become a Sponsor",
-    image: yourBrandLogo,
-    className: "h-7 w-auto",
+ {
+    id: "airblue",
+    description: "Team Hammerhead GIKI",
+    image: img1,
+    className: "h-12 w-auto",
   },
+ {
+    id: "levis",
+    description: "Team Hammerhead GIKI",
+    image: img2,
+    className: "h-12 w-auto",
+  },
+ {
+    id: "redbull",
+    description: "Team Hammerhead GIKI",
+    image: img3,
+    className: "h-12 w-auto",
+  },
+ {
+    id: "toyota",
+    description: "Team Hammerhead GIKI",
+    image: img4,
+    className: "h-12 w-auto",
+  },
+ {
+    id: "indus",
+    description: "Team Hammerhead GIKI",
+    image: img5,
+    className: "h-12 w-auto",
+  },
+ {
+    id: "hancook",
+    description: "Team Hammerhead GIKI",
+    image: img6,
+    className: "h-12 w-auto",
+  },
+  
 ];
 
 const Logos3 = ({
