@@ -14,6 +14,9 @@ import heroBg from "@assets/WhatsApp_Image_2025-10-14_at_12.59.14_PM_17822311253
 import teamPhoto from "@assets/WhatsApp_Image_2025-06-13_at_20.11.20_1782231146053_1782316997099.jpeg";
 import trackPhoto1 from "@assets/OMR05105_1782231093659_1782316997099.JPG";
 import trackPhoto2 from "@assets/OMR05412_1782231091330_1782316997099.JPG";
+import trackPhoto3 from "@assets/OMR05103.JPG";
+import trackPhoto4 from "@assets/OMR04964.JPG";
+import trackPhoto5 from "@assets/OMR05224.JPG";
 
 // ─── Gallery cards ────────────────────────────────────────────────────────────
 const cards = [
@@ -33,6 +36,24 @@ const cards = [
   },
   {
     src: trackPhoto2,
+    title: "Qatar Airways Circuit",
+    category: "Racing",
+    content: <p className="text-white/70">Hammerhead member soaking in the moment at the iconic Qatar circuit.</p>
+  },
+  {
+    src: trackPhoto3,
+    title: "Qatar Airways Circuit",
+    category: "Racing",
+    content: <p className="text-white/70">Hammerhead member soaking in the moment at the iconic Qatar circuit.</p>
+  },
+  {
+    src: trackPhoto4,
+    title: "Qatar Airways Circuit",
+    category: "Racing",
+    content: <p className="text-white/70">Hammerhead member soaking in the moment at the iconic Qatar circuit.</p>
+  },
+  {
+    src: trackPhoto5,
     title: "Qatar Airways Circuit",
     category: "Racing",
     content: <p className="text-white/70">Hammerhead member soaking in the moment at the iconic Qatar circuit.</p>
