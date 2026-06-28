@@ -11,6 +11,7 @@ import img3 from "@assets/redbull-logo-svgrepo-com (1).svg";
 import img4 from "@assets/image-removebg-preview (4).png";
 import img5 from "@assets/Screenshot 2026-06-28 204737.png";
 import img6 from "@assets/image-removebg-preview (5).png";
+import img7 from "@Screenshot 2026-06-28 211200.png";
 
 interface Logo {
   id: string;
@@ -79,6 +80,12 @@ const defaultLogos: Logo[] = [
     id: "hancook",
     description: "Team Hammerhead GIKI",
     image: img6,
+    className: "h-12 w-auto",
+  },
+ {
+    id: "hum",
+    description: "Team Hammerhead GIKI",
+    image: img7,
     className: "h-12 w-auto",
   },
   
