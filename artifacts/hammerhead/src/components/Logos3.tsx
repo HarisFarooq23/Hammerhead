@@ -127,6 +127,7 @@ const Logos3 = ({
                       src={logo.image}
                       alt={logo.description}
                       className={logo.className}
+                      draggable={false}
                     />
                   </div>
                 </CarouselItem>
