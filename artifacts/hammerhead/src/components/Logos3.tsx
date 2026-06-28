@@ -45,12 +45,6 @@ const yourBrandLogo =
 
 const defaultLogos: Logo[] = [
   
-  {
-    id: "hammerhead",
-    description: "Team Hammerhead GIKI",
-    image: logoImg,
-    className: "h-12 w-auto",
-  },
  {
     id: "airblue",
     description: "Team Hammerhead GIKI",
