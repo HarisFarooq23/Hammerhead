@@ -1,7 +1,7 @@
 import type React from "react";
 import { useState, useRef } from "react";
 import { motion, AnimatePresence, useMotionValue, useTransform, useSpring } from "framer-motion";
-import mapBg from "@assets/WhatsApp_Image_2025-06-13_at_20.11.20_1782231146053_1782316997099.jpeg";
+import mapBg from "@assets/giki.jpg";
 
 interface LocationMapProps {
   location?: string;
