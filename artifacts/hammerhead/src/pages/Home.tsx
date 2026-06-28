@@ -28,14 +28,7 @@ const cards = [
     
   },
   {
-    src: trackPhoto1,
-    title: "At the Track",
-    category: "Racing",
-    content: <p className="text-white/70">Strategic planning ahead of the run at track.</p>
-    
-  },
-  {
-    src: trackPhoto2,
+    src: trackPhoto4,
     title: "Qatar Airways Circuit",
     category: "Racing",
     content: <p className="text-white/70">Hammerhead member soaking in the moment at the iconic Qatar circuit.</p>
@@ -46,14 +39,22 @@ const cards = [
     category: "Racing",
     content: <p className="text-white/70">Hammerhead member soaking in the moment at the iconic Qatar circuit.</p>
   },
+
   {
-    src: trackPhoto4,
+    src: trackPhoto5,
     title: "Qatar Airways Circuit",
     category: "Racing",
     content: <p className="text-white/70">Hammerhead member soaking in the moment at the iconic Qatar circuit.</p>
   },
   {
-    src: trackPhoto5,
+    src: trackPhoto1,
+    title: "At the Track",
+    category: "Racing",
+    content: <p className="text-white/70">Strategic planning ahead of the run at track.</p>
+    
+  },
+  {
+    src: trackPhoto2,
     title: "Qatar Airways Circuit",
     category: "Racing",
     content: <p className="text-white/70">Hammerhead member soaking in the moment at the iconic Qatar circuit.</p>
