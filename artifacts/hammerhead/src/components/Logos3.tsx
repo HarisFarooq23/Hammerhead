@@ -9,7 +9,7 @@ import img1 from "@assets/Airblue-Logo.wine.svg";
 import img2 from "@assets/image-removebg-preview (6).png";
 import img3 from "@assets/redbull-logo-svgrepo-com (1).svg";
 import img4 from "@assets/image-removebg-preview (4).png";
-import img5 from "@assets/Screenshot 2026-06-28 204737.png;
+import img5 from "@assets/Screenshot 2026-06-28 204737.png";
 import img6 from "@assets/image-removebg-preview (5).png";
 
 interface Logo {
