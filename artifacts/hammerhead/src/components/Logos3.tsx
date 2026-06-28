@@ -113,7 +113,7 @@ const Logos3 = ({
       <div className="pt-10 md:pt-16 lg:pt-20">
         <div className="relative mx-auto flex items-center justify-center lg:max-w-5xl">
           <Carousel
-            opts={{ loop: true }}
+            opts={{ loop: true , dragFree: false, watchDrag: false, }}
             plugins={[AutoScroll({ playOnInit: true, speed: 1 ,stopOnInteraction: false, stopOnMouseEnter: false,}),]}
           >
             <CarouselContent className="ml-0">
