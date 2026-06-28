@@ -66,7 +66,7 @@ export function LocationMap({
         transition={{ type: "spring", stiffness: 400, damping: 35 }}
       >
         {/* gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-white/5 via-transparent to-white/10" />
+        
 
         <AnimatePresence>
           {isExpanded && (
@@ -127,7 +127,7 @@ export function LocationMap({
                   <circle cx="12" cy="9" r="2.5" fill="#000" />
                 </svg>
               </motion.div>
-              <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-transparent to-transparent opacity-60" />
+             
             </motion.div>
           )}
         </AnimatePresence>
