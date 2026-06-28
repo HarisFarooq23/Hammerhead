@@ -27,7 +27,7 @@ const cards = [
     src: trackPhoto1,
     title: "At the Track",
     category: "Racing",
-    content: <p className="text-white/70">Strategic discussions at the Shell Eco-Marathon circuit.</p>
+    
   },
   {
     src: trackPhoto2,
