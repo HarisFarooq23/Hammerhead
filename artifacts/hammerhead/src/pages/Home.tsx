@@ -21,12 +21,14 @@ const cards = [
     src: teamPhoto,
     title: "Shell Eco-Marathon 2025",
     category: "Competition",
+    content: <p className="text-white/70">Team Hammerhead GIKI with their battery-electric prototype at Shell Eco-Marathon.</p>
     
   },
   {
     src: trackPhoto1,
     title: "At the Track",
     category: "Racing",
+    content: <p className="text-white/70">Strategic planning ahead of the run at track.</p>
     
   },
   {
