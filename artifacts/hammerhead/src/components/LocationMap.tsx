@@ -1,6 +1,7 @@
 import type React from "react";
 import { useState, useRef } from "react";
 import { motion, AnimatePresence, useMotionValue, useTransform, useSpring } from "framer-motion";
+import mapBg from "@assets/WhatsApp_Image_2025-06-13_at_20.11.20_1782231146053_1782316997099.jpeg";
 
 interface LocationMapProps {
   location?: string;
@@ -76,7 +77,12 @@ export function LocationMap({
               exit={{ opacity: 0 }}
               transition={{ duration: 0.4, delay: 0.1 }}
             >
-              <div className="absolute inset-0 bg-neutral-800" />
+              <div
+                className="absolute inset-0 bg-cover bg-center"
+                style={{
+                  backgroundImage: `url(${mapBg})`,
+                }}
+              />
               <svg className="absolute inset-0 w-full h-full" preserveAspectRatio="none">
                 {/* Main roads */}
                 <motion.line x1="0%" y1="35%" x2="100%" y2="35%" stroke="rgba(255,255,255,0.2)" strokeWidth="4" initial={{ pathLength: 0 }} animate={{ pathLength: 1 }} transition={{ duration: 0.8, delay: 0.2 }} />
