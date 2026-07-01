@@ -134,8 +134,8 @@ const Logos3 = ({
               ))}
             </CarouselContent>
           </Carousel>
-          <div className="absolute inset-y-0 left-0 w-12 bg-gradient-to-r from-neutral-950 to-transparent pointer-events-none" />
-          <div className="absolute inset-y-0 right-0 w-12 bg-gradient-to-l from-neutral-950 to-transparent pointer-events-none" />
+          <div className="absolute inset-y-0 left-0 w-12 bg-gradient-to-r from-[#F2F0EB] to-transparent pointer-events-none" />
+          <div className="absolute inset-y-0 right-0 w-12 bg-gradient-to-l from-[#F2F0EB] to-transparent pointer-events-none" />
         </div>
       </div>
     </section>
