@@ -7,7 +7,9 @@ import { LocationMap } from "@/components/LocationMap";
 import FlowArt, { FlowSection } from "@/components/StoryScroll";
 import { Logos3 } from "@/components/Logos3";
 import { SponsorUs } from "@/components/SponsorUs";
-import { HeroWithMarquee } from "@/components/HeroWithMarquee";
+import { ContactScrollSection } from "@/components/ContactScrollSection";
+import { VisualArchiveSection } from "@/components/VisualArchiveSection";
+import { ProcessSection } from "@/components/ProcessSection";
 import { ScrollRevealText } from "@/components/ScrollRevealText";
 
 import heroBg from "@assets/WhatsApp_Image_2025-10-14_at_12.59.14_PM_1782231125316_1782318583069.jpeg";
@@ -104,15 +106,14 @@ export function Home() {
           <img src={heroBg} alt="Hammerhead driver at the cockpit" className="absolute inset-0 w-full h-full object-cover object-center z-0" />
           <div className="absolute inset-0 bg-black/55 z-0 pointer-events-none" />
           <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center">
-            <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }} className="max-w-4xl pt-24 sm:pt-28 md:pt-32">
-              <p className="text-gray-300 tracking-[0.2em] sm:tracking-[0.3em] text-xs sm:text-sm md:text-base font-medium mb-4 sm:mb-6 uppercase">Est. 2009 — GIK Institute, Pakistan 🇵🇰</p>
-              <h1 className="text-white tracking-[0.15em] sm:tracking-[0.2em] text-xl sm:text-2xl md:text-4xl font-bold mb-2 uppercase">TEAM HAMMERHEAD</h1>
-              <h2 className="text-white font-rajdhani text-[clamp(3.5rem,22vw,15rem)] leading-[0.85] font-black tracking-tighter mb-4 sm:mb-6 drop-shadow-2xl break-words">GIKI</h2>
-              <p className="text-gray-200 tracking-[0.2em] sm:tracking-[0.3em] text-base sm:text-lg md:text-2xl font-bold mb-6 sm:mb-8 uppercase">ONE TEAM. ONE DREAM.</p>
-              <p className="text-gray-300 text-base sm:text-lg md:text-xl max-w-2xl mb-8 sm:mb-12 leading-relaxed">Engineering ultra-efficient battery-electric prototype vehicles for the Shell Eco-Marathon. Representing Pakistan on the global stage with precision, innovation, and relentless drive.</p>
-              <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 items-stretch sm:items-center">
-                <Link href="/vehicles" className="inline-flex items-center justify-center px-6 sm:px-8 py-3.5 sm:py-4 text-xs sm:text-sm md:text-base font-bold tracking-widest text-black bg-primary hover:bg-primary/90 rounded-full transition-all hover:scale-105 uppercase text-center">OUR VEHICLES →</Link>
-                <a href="https://instagram.com/hammerheadgiki" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-6 sm:px-8 py-3.5 sm:py-4 text-xs sm:text-sm md:text-base font-bold tracking-widest text-white border border-white/30 bg-black/20 hover:bg-white/10 rounded-full backdrop-blur-sm transition-all hover:scale-105 uppercase text-center">Follow on Instagram</a>
+            <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }} className="max-w-3xl pt-24 sm:pt-28 md:pt-32">
+              <p className="text-white/50 text-xs sm:text-sm font-light tracking-wide mb-6">Est. 2009 — GIK Institute, Pakistan</p>
+              <h1 className="text-white text-sm sm:text-base font-light tracking-[0.2em] mb-3 uppercase">Team Hammerhead</h1>
+              <h2 className="text-white text-[clamp(3.5rem,18vw,12rem)] leading-[0.9] font-light tracking-tight mb-6">GIKI</h2>
+              <p className="text-white/70 text-sm sm:text-base font-light mb-8 max-w-md leading-relaxed">Engineering ultra-efficient battery-electric prototypes for Shell Eco-Marathon. Representing Pakistan on the global stage.</p>
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-stretch sm:items-center">
+                <Link href="/vehicles" className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-normal text-white border border-white/40 hover:bg-white/10 rounded-full transition-colors text-center">Our vehicles</Link>
+                <a href="https://instagram.com/hammerheadgiki" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-normal text-white/70 hover:text-white transition-colors text-center">Instagram</a>
               </div>
             </motion.div>
           </div>
@@ -309,8 +310,14 @@ export function Home() {
         {/* ── Sponsor Us ── */}
         <SponsorUs />
 
-        {/* ── Get in Touch ── */}
-        <HeroWithMarquee />
+        {/* ── Collaborate ── */}
+        <ContactScrollSection />
+
+        {/* ── Visual Archive ── */}
+        <VisualArchiveSection />
+
+        {/* ── Process ── */}
+        <ProcessSection />
 
         {/* ── Footer ── */}
         <footer className="bg-black py-12 border-t border-white/10 relative z-20">
