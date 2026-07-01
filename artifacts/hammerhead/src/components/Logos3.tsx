@@ -99,6 +99,13 @@ const Logos3 = ({
   return (
     <section className={`py-16 sm:py-20 md:py-24 bg-[#F2F0EB] relative z-20 scroll-mt-24 ${className ?? ""}`} id="partners">
       <div className="container flex flex-col items-center text-center mx-auto px-6">
+          <p className="text-primary text-xs font-bold uppercase tracking-[0.3em] mb-4">Base of Operations</p>
+            <h2 className="text-[clamp(3rem,10vw,7rem)] font-black uppercase tracking-tighter leading-[0.9] text-black">
+              Our Partners 
+            </h2>
+          <p className="text-gray-400 text-base md:text-lg leading-relaxed max-w-md">
+                      Our journey is made possible through the support of GIK Institute and our valued sponsors over the past.
+            </p>
         <p className="text-primary text-xs font-bold uppercase tracking-[0.3em] mb-4">
           Partners
         </p>
