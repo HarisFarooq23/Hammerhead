@@ -84,8 +84,7 @@ export function Home() {
     { text: "Precision." },
     { text: "Speed." },
     { text: "Innovation." },
-    { text: "Pakistan." },
-    { text: "Hammerhead." }
+    { text: "Pakistan." }
   ];
 
   return (
