@@ -380,7 +380,6 @@ export function Home() {
         <footer className="bg-[#FF5E1A] py-12 border-t border-white/10 relative z-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center justify-center gap-6">
             <p className="text-black-500 text-sm tracking-widest uppercase">
-              © {new Date().getFullYear()} Team Hammerhead GIKI. All rights reserved.
             </p>
           </div>
         </footer>
