@@ -130,6 +130,15 @@ export function Home() {
           </div>
         </section>
 
+        {/* ── Collaborate ── */}
+        <ContactScrollSection />
+
+        {/* ── Visual Archive ── */}
+        <VisualArchiveSection />
+
+        {/* ── Process ── */}
+        <ProcessSection />
+
         {/* ── Location ── */}
         <section className="bg-black py-16 sm:py-24 md:py-28 relative z-20 overflow-hidden">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
@@ -309,16 +318,7 @@ export function Home() {
 
         {/* ── Sponsor Us ── */}
         <SponsorUs />
-
-        {/* ── Collaborate ── */}
-        <ContactScrollSection />
-
-        {/* ── Visual Archive ── */}
-        <VisualArchiveSection />
-
-        {/* ── Process ── */}
-        <ProcessSection />
-
+        
         {/* ── Footer ── */}
         <footer className="bg-black py-12 border-t border-white/10 relative z-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center justify-center gap-6">
