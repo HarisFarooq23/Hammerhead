@@ -97,15 +97,15 @@ const Logos3 = ({
   className,
 }: Logos3Props) => {
   return (
-    <section className={`py-16 sm:py-20 md:py-24 bg-black relative z-20 scroll-mt-24 ${className ?? ""}`} id="partners">
+    <section className={`py-16 sm:py-20 md:py-24 bg-[#F2F0EB] relative z-20 scroll-mt-24 ${className ?? ""}`} id="partners">
       <div className="container flex flex-col items-center text-center mx-auto px-6">
         <p className="text-primary text-xs font-bold uppercase tracking-[0.3em] mb-4">
           Partners
         </p>
-        <h2 className="my-4 text-2xl font-bold text-white font-rajdhani uppercase tracking-wider lg:text-4xl">
+        <h2 className="my-4 text-2xl font-bold text-black font-rajdhani uppercase tracking-wider lg:text-4xl">
           {heading}
         </h2>
-        <p className="text-white/50 max-w-xl text-sm">
+        <p className="text-black/50 max-w-xl text-sm">
           Our journey is made possible through the support of GIK Institute and
           our valued sponsors.
         </p>
