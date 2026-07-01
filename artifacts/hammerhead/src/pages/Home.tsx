@@ -21,6 +21,7 @@ import trackPhoto4 from "@assets/OMR04964.JPG";
 import trackPhoto5 from "@assets/OMR05224.JPG";
 import hero2 from "@assets/Inductions 2025 (2).png";
 import hero3 from "@assets/heroback.png";
+import hero4 from "@assets/heroback2.png";
 
 // ─── Gallery cards ────────────────────────────────────────────────────────────
 const cards = [
@@ -104,18 +105,70 @@ export function Home() {
         <Navbar />
 
         {/* ── Hero ── */}
-        <main id="home" className="relative min-h-[100dvh] flex flex-col justify-center overflow-hidden">
-          <img src={hero3} alt="Hammerhead driver at the cockpit" className="absolute inset-0 w-full h-full object-cover object-center z-0" />
+        <main
+          id="home"
+          className="relative min-h-[100dvh] flex flex-col justify-center overflow-hidden"
+        >
+          {/* Desktop / Tablet Background */}
+          <img
+            src={hero3}
+            alt="Hammerhead driver at the cockpit"
+            className="absolute inset-0 hidden md:block w-full h-full object-cover object-center z-0"
+          />
+        
+          {/* Mobile Background */}
+          <img
+            src={hero4}
+            alt="Hammerhead driver at the cockpit"
+            className="absolute inset-0 md:hidden w-full h-full object-cover object-center z-0"
+          />
+        
           <div className="absolute inset-0 bg-black/55 z-0 pointer-events-none" />
+        
           <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center">
-            <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }} className="max-w-3xl pt-24 sm:pt-28 md:pt-32">
-              <p className="text-white/50 text-xs sm:text-sm font-light tracking-wide mb-6">Est. 2009 — GIK Institute, Pakistan</p>
-              <h1 className="text-white text-sm sm:text-base font-light tracking-[0.2em] mb-3 uppercase">Team Hammerhead</h1>
-              <h2 className="text-white text-[clamp(3.5rem,18vw,12rem)] leading-[0.9] font-light tracking-tight mb-6">GIKI</h2>
-              <p className="text-white/70 text-sm sm:text-base font-light mb-8 max-w-md leading-relaxed">Engineering ultra-efficient battery-electric prototypes for Shell Eco-Marathon. Representing Pakistan on the global stage.</p>
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{
+                duration: 0.8,
+                delay: 0.5,
+                ease: "easeOut",
+              }}
+              className="max-w-3xl pt-24 sm:pt-28 md:pt-32"
+            >
+              <p className="text-white/50 text-xs sm:text-sm font-light tracking-wide mb-6">
+                Est. 2009 — GIK Institute, Pakistan
+              </p>
+        
+              <h1 className="text-white text-sm sm:text-base font-light tracking-[0.2em] mb-3 uppercase">
+                Team Hammerhead
+              </h1>
+        
+              <h2 className="text-white text-[clamp(3.5rem,18vw,12rem)] leading-[0.9] font-light tracking-tight mb-6">
+                GIKI
+              </h2>
+        
+              <p className="text-white/70 text-sm sm:text-base font-light mb-8 max-w-md leading-relaxed">
+                Engineering ultra-efficient battery-electric prototypes for Shell
+                Eco-Marathon. Representing Pakistan on the global stage.
+              </p>
+        
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-stretch sm:items-center">
-                <Link href="/vehicles" className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-normal text-white border border-white/40 hover:bg-white/10 rounded-full transition-colors text-center">Our vehicles</Link>
-                <a href="https://instagram.com/hammerheadgiki" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-normal text-white/70 hover:text-white transition-colors text-center">Instagram</a>
+                <Link
+                  href="/vehicles"
+                  className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-normal text-white border border-white/40 hover:bg-white/10 rounded-full transition-colors text-center"
+                >
+                  Our vehicles
+                </Link>
+        
+                <a
+                  href="https://instagram.com/hammerheadgiki"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-normal text-white/70 hover:text-white transition-colors text-center"
+                >
+                  Instagram
+                </a>
               </div>
             </motion.div>
           </div>
