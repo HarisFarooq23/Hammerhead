@@ -49,12 +49,12 @@ export function ScrollRevealText({ text, label }: ScrollRevealTextProps) {
     >
       <motion.div className="text-center px-4 max-w-screen-xl" style={{ y }}>
         {label && (
-          <p className="text-white/30 text-xs font-bold uppercase tracking-[0.3em] mb-6">
+          <p className="text-black/30 text-xs font-bold uppercase tracking-[0.3em] mb-6">
             {label}
           </p>
         )}
         <div
-          className="text-[clamp(2.5rem,8vw,7rem)] font-white uppercase tracking-tight leading-[0.9]"
+          className="text-[clamp(2.5rem,8vw,7rem)] font-black uppercase tracking-tight leading-[0.9]"
           style={{ perspective: "600px" }}
         >
           {chars.map((char, i) => (
