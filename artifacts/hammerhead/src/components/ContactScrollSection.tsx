@@ -6,17 +6,17 @@ export const CONTACT_LINK = "#contact";
 
 export function ContactScrollSection() {
   return (
-    <section id="contact" className="relative z-20 bg-black scroll-mt-24">
+    <section id="contact" className="relative z-20 bg-[#F2F0EB] scroll-mt-24">
       <ContainerScroll
         titleComponent={
           <div className="space-y-4 px-4">
             <p className="text-primary text-xs font-medium uppercase tracking-[0.3em]">
               Collaborate
             </p>
-            <h2 className="text-3xl md:text-5xl font-light text-white tracking-tight leading-tight">
+            <h2 className="text-3xl md:text-5xl font-light text-black tracking-tight leading-tight">
               Let&apos;s collaborate
               <br />
-              <span className="font-normal text-white/80">and build together.</span>
+              <span className="font-normal text-black/80">and build together.</span>
             </h2>
             <p className="text-gray-400 text-sm md:text-base max-w-lg mx-auto font-light leading-relaxed">
               Sponsorships, media inquiries, and partnerships — join Pakistan&apos;s
@@ -26,7 +26,7 @@ export function ContactScrollSection() {
               href={INSTAGRAM_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-4 px-8 py-3 text-sm font-medium tracking-wide text-black bg-white rounded-full hover:bg-white/90 transition-colors"
+              className="inline-block mt-4 px-8 py-3 text-sm font-medium tracking-wide text-white bg-black rounded-full hover:bg-white/90 transition-colors"
             >
               Follow on Instagram
             </a>
