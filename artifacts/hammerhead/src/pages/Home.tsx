@@ -123,33 +123,18 @@ export function Home() {
 
         {/* ── Collaborate ── */}
         <ContactScrollSection />
-
-        {/* ── Gallery ── */}
-        <section id="gallery" className="bg-[#F2F0EB] py-10 sm:py-10 md:py-12 relative z-20">
-          <SectionReveal className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">
-            <h3 className="text-3xl md:text-5xl font-bold text-black tracking-wider font-rajdhani uppercase">From the Pits</h3>
-            <p className="mt-4 text-black text-lg">Behind the scenes of our journey.</p>
-          </SectionReveal>
-          <div className="w-full">
-            <Carousel items={cards.map((card, index) => <Card key={card.title} card={card} index={index} />)} />
-          </div>
-        </section>
-
-        {/* ── Visual Archive ── */}
-        <VisualArchiveSection />
-
-        {/* ── Process ── */}
-        <ProcessSection />
-
+        
         {/* ── Location ── */}
-        <section className="bg-black py-16 sm:py-24 md:py-28 relative z-20 overflow-hidden">
+        <section className="bg-[#F2F0EB] py-16 sm:py-24 md:py-28 relative z-20 overflow-hidden">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
             <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
               <SectionReveal>
                 <p className="text-primary text-xs font-bold uppercase tracking-[0.3em] mb-4">Base of Operations</p>
-                <h2 className="text-white font-rajdhani text-[clamp(3.5rem,10vw,8rem)] font-black uppercase leading-[0.85] tracking-tighter mb-6">
-                  GIKI<br />SWABI<br /><span className="text-primary">PAK</span>
-                </h2>
+                  <h2 className="text-[clamp(3rem,10vw,7rem)] font-black uppercase tracking-tighter leading-[0.9] text-black">
+                    SWABI
+                    <br />
+                    PAKISTAN.
+                  </h2>
                 <p className="text-gray-400 text-base md:text-lg leading-relaxed max-w-md">
                   Ghulam Ishaq Khan Institute of Engineering Sciences & Technology — nestled in the mountains of Khyber Pakhtunkhwa. Our home since 2009.
                 </p>
@@ -178,6 +163,23 @@ export function Home() {
             </div>
           </div>
         </section>
+
+        {/* ── Gallery ── */}
+        <section id="gallery" className="bg-[#F2F0EB] py-10 sm:py-10 md:py-12 relative z-20">
+          <SectionReveal className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">
+            <h3 className="text-3xl md:text-5xl font-bold text-black tracking-wider font-rajdhani uppercase">From the Pits</h3>
+            <p className="mt-4 text-black text-lg">Behind the scenes of our journey.</p>
+          </SectionReveal>
+          <div className="w-full">
+            <Carousel items={cards.map((card, index) => <Card key={card.title} card={card} index={index} />)} />
+          </div>
+        </section>
+
+        {/* ── Visual Archive ── */}
+        <VisualArchiveSection />
+
+        {/* ── Process ── */}
+        <ProcessSection />
 
         {/* ── FlowArt sections ── */}
         <div id="story" className="relative z-20 scroll-mt-24">
