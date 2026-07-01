@@ -45,7 +45,7 @@ export function ScrollRevealText({ text, label }: ScrollRevealTextProps) {
   return (
     <div
       ref={targetRef}
-      className="relative flex min-h-screen items-center justify-center overflow-hidden bg-black"
+      className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[#F2F0EB]"
     >
       <motion.div className="text-center px-4 max-w-screen-xl" style={{ y }}>
         {label && (
