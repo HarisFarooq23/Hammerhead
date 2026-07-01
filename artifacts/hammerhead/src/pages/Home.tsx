@@ -19,6 +19,7 @@ import trackPhoto2 from "@assets/OMR05412_1782231091330_1782316997099.JPG";
 import trackPhoto3 from "@assets/OMR05103.JPG";
 import trackPhoto4 from "@assets/OMR04964.JPG";
 import trackPhoto5 from "@assets/OMR05224.JPG";
+import hero2 from "@assets/Inductions 2025 (2).png";
 
 // ─── Gallery cards ────────────────────────────────────────────────────────────
 const cards = [
@@ -103,7 +104,7 @@ export function Home() {
 
         {/* ── Hero ── */}
         <main id="home" className="relative min-h-[100dvh] flex flex-col justify-center overflow-hidden">
-          <img src={heroBg} alt="Hammerhead driver at the cockpit" className="absolute inset-0 w-full h-full object-cover object-center z-0" />
+          <img src={hero2} alt="Hammerhead driver at the cockpit" className="absolute inset-0 w-full h-full object-cover object-center z-0" />
           <div className="absolute inset-0 bg-black/55 z-0 pointer-events-none" />
           <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center">
             <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }} className="max-w-3xl pt-24 sm:pt-28 md:pt-32">
