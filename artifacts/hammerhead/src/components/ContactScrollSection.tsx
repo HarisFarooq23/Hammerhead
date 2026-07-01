@@ -26,7 +26,7 @@ export function ContactScrollSection() {
               href={INSTAGRAM_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-4 px-8 py-3 text-sm font-medium tracking-wide text-white bg-black rounded-full hover:bg-white/90 transition-colors"
+              className="inline-block mt-4 px-8 py-3 text-sm font-medium tracking-wide text-white bg-black rounded-full hover:bg-orange/90 transition-colors"
             >
               Follow on Instagram
             </a>
