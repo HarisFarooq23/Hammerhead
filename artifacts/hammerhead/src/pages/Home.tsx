@@ -20,8 +20,8 @@ import trackPhoto3 from "@assets/OMR05103.JPG";
 import trackPhoto4 from "@assets/OMR04964.JPG";
 import trackPhoto5 from "@assets/OMR05224.JPG";
 import hero2 from "@assets/Inductions 2025 (2).png";
-import hero3 from "@assets/heroback5.png";
-import hero4 from "@assets/heroback6.png";
+import hero3 from "@assets/heroback7.png";
+import hero4 from "@assets/heroback8.png";
 
 // ─── Gallery cards ────────────────────────────────────────────────────────────
 const cards = [
