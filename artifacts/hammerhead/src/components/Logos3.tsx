@@ -104,7 +104,7 @@ const Logos3 = ({
               Our Partners 
             </h2>
           <p className="text-gray-400 text-base md:text-lg leading-relaxed max-w-md">
-                      Our journey is made possible through the support of GIK Institute and our valued sponsors over the past.
+                      Our valued sponsors over the past.
             </p>
       </div>
       <div className="pt-10 md:pt-16 lg:pt-20">
