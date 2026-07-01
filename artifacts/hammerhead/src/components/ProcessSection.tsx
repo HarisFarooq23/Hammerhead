@@ -42,7 +42,7 @@ const processItems = [
 
 export function ProcessSection() {
   return (
-    <section id="process" className="relative z-20 bg-white dark:bg-neutral-950 scroll-mt-24">
+    <section id="process" className="relative z-20 bg-[#F2F0EB] dark:bg-neutral-950 scroll-mt-24">
       <RollingTextList items={processItems} />
     </section>
   );
