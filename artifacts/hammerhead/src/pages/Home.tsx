@@ -120,7 +120,7 @@ export function Home() {
         </main>
 
         {/* ── Gallery ── */}
-        <section id="gallery" className="bg-[#F2F0EB] py-16 sm:py-20 md:py-24 relative z-20">
+        <section id="gallery" className="bg-[#F2F0EB] py-10 sm:py-10 md:py-12 relative z-20">
           <SectionReveal className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">
             <h3 className="text-3xl md:text-5xl font-bold text-black tracking-wider font-rajdhani uppercase">From the Pits</h3>
             <p className="mt-4 text-black text-lg">Behind the scenes of our journey.</p>
