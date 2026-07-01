@@ -97,7 +97,7 @@ const Logos3 = ({
   className,
 }: Logos3Props) => {
   return (
-    <section className={`py-16 sm:py-20 md:py-24 bg-neutral-950 relative z-20 scroll-mt-24 ${className ?? ""}`} id="partners">
+    <section className={`py-16 sm:py-20 md:py-24 bg-black relative z-20 scroll-mt-24 ${className ?? ""}`} id="partners">
       <div className="container flex flex-col items-center text-center mx-auto px-6">
         <p className="text-primary text-xs font-bold uppercase tracking-[0.3em] mb-4">
           Partners
