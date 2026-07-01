@@ -93,7 +93,7 @@ export function Home() {
     <ArcRevealHero
       greetings={greetings}
       storageKey="hammerhead-intro"
-      introClassName="bg-white"
+      introClassName="bg-[#F2F0EB]"
       greetingClassName=""
       greetingStyle={{ color: '#111111' }}
       revealColor="#000000"
