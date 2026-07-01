@@ -106,16 +106,6 @@ const Logos3 = ({
           <p className="text-gray-400 text-base md:text-lg leading-relaxed max-w-md">
                       Our journey is made possible through the support of GIK Institute and our valued sponsors over the past.
             </p>
-        <p className="text-primary text-xs font-bold uppercase tracking-[0.3em] mb-4">
-          Partners
-        </p>
-        <h2 className="my-4 text-2xl font-bold text-black font-rajdhani uppercase tracking-wider lg:text-4xl">
-          {heading}
-        </h2>
-        <p className="text-black/50 max-w-xl text-sm">
-          Our journey is made possible through the support of GIK Institute and
-          our valued sponsors.
-        </p>
       </div>
       <div className="pt-10 md:pt-16 lg:pt-20">
         <div className="relative mx-auto flex items-center justify-center lg:max-w-5xl">
