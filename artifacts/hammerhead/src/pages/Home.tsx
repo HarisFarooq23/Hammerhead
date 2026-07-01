@@ -119,6 +119,9 @@ export function Home() {
           </div>
         </main>
 
+        {/* ── Collaborate ── */}
+        <ContactScrollSection />
+
         {/* ── Gallery ── */}
         <section id="gallery" className="bg-[#F2F0EB] py-10 sm:py-10 md:py-12 relative z-20">
           <SectionReveal className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">
@@ -129,9 +132,6 @@ export function Home() {
             <Carousel items={cards.map((card, index) => <Card key={card.title} card={card} index={index} />)} />
           </div>
         </section>
-
-        {/* ── Collaborate ── */}
-        <ContactScrollSection />
 
         {/* ── Visual Archive ── */}
         <VisualArchiveSection />
