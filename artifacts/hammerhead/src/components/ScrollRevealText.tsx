@@ -54,7 +54,7 @@ export function ScrollRevealText({ text, label }: ScrollRevealTextProps) {
           </p>
         )}
         <div
-          className="text-[clamp(2.5rem,8vw,7rem)] font-black uppercase tracking-tight leading-[0.9]"
+          className="text-[clamp(2.5rem,8vw,7rem)] font-white uppercase tracking-tight leading-[0.9]"
           style={{ perspective: "600px" }}
         >
           {chars.map((char, i) => (
