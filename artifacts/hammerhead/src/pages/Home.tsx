@@ -94,7 +94,7 @@ export function Home() {
       introClassName="bg-white"
       greetingClassName=""
       greetingStyle={{ color: '#111111' }}
-      revealColor="#ffffff"
+      revealColor="#000000"
     >
       <div className="min-h-screen bg-black text-foreground selection:bg-primary selection:text-primary-foreground font-sans">
         <Navbar />
