@@ -1,7 +1,7 @@
 import type React from "react";
 import { useState, useRef } from "react";
 import { motion, AnimatePresence, useMotionValue, useTransform, useSpring } from "framer-motion";
-import mapBg from "@assets/Screenshot 2026-06-28 185928.png";
+import mapBg from "@assets/Untitled design (9).png";
 
 interface LocationMapProps {
   location?: string;
@@ -181,7 +181,7 @@ export function LocationMap({
       </motion.div>
 
       <motion.p
-        className="absolute -bottom-6 left-1/2 text-[10px] text-white/30 whitespace-nowrap"
+        className="absolute -bottom-6 left-1/2 text-[10px] text-black/30 whitespace-nowrap"
         style={{ x: "-50%" }}
         initial={{ opacity: 0 }}
         animate={{
