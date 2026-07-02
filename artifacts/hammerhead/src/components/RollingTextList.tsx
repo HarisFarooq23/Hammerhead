@@ -99,7 +99,7 @@ function RollingTextList({ items }: RollingTextListProps) {
   return (
     <div className="mx-auto flex w-full max-w-2xl flex-col items-center justify-center px-4 py-12">
       <h3 className="mb-8 text-sm font-bold uppercase tracking-widest text-neutral-500">
-        Process
+        Our Vehicles - Click to view
       </h3>
 
       <div className="w-full flex flex-col">
