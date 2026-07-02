@@ -4,7 +4,7 @@ import trackPhoto1 from "@assets/2.png";
 import trackPhoto2 from "@assets/8.png";
 import trackPhoto3 from "@assets/9.png";
 import trackPhoto4 from "@assets/10.png";
-import trackPhoto5 from "@assets/13.JPG";
+import trackPhoto5 from "@assets/13.png";
 
 const archivePhotos: GalleryPhoto[] = [
   { id: 1, image: trackPhoto1 },
