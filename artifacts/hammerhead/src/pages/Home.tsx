@@ -362,14 +362,6 @@ export function Home() {
           </FlowArt>
         </div>
 
-        {/* ── Scroll reveal text ── */}
-        <div className="relative z-20">
-          <ScrollRevealText
-            text="TRACK READY"
-            label="One mission. Relentless drive."
-          />
-        </div>
-
         {/* ── Partners ── */}
         <Logos3 />
 
@@ -383,6 +375,17 @@ export function Home() {
             </p>
           </div>
         </footer>
+
+                {/* ── Scroll reveal text ── */}
+        <div className="relative z-20">
+          <ScrollRevealText
+            text="TRACK READY"
+            label="One mission. Relentless drive."
+          />
+        </div>
+          
+
+        
       </div>
     </ArcRevealHero>
   );
