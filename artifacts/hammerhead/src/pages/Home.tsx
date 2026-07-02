@@ -21,7 +21,7 @@ import trackPhoto4 from "@assets/11.png";
 import trackPhoto5 from "@assets/14.png";
 import hero2 from "@assets/Inductions 2025 (2).png";
 import hero3 from "@assets/heroback7.png";
-import hero4 from "@assets/heroback8.png";
+import hero4 from "@assets/Screenshot 2026-07-02 202624.png";
 
 // ─── Gallery cards ────────────────────────────────────────────────────────────
 const cards = [
