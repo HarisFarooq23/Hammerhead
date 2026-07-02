@@ -135,7 +135,7 @@ export function Card({ card, index, layout = false }: { card: CarouselCard; inde
               layoutId={layout ? `card-${card.title}` : undefined}
               className="relative z-[60] mx-auto my-10 h-fit max-w-5xl rounded-3xl bg-neutral-900 p-4 md:p-10"
             >
-              <button className="sticky top-4 right-0 ml-auto flex h-8 w-8 items-center justify-center rounded-full bg-white/10" onClick={() => {}}}>
+              <button className="sticky top-4 right-0 ml-auto flex h-8 w-8 items-center justify-center rounded-full bg-white/10" onClick={() => {}}>
                 <X className="h-5 w-5 text-white" />
               </button>
               <p className="text-base font-medium text-orange-400">{card.category}</p>
