@@ -93,6 +93,15 @@ export function Home() {
   ];
 
   return (
+
+    <ArcRevealHero
+      greetings={greetings}
+      storageKey="hammerhead-intro"
+      introClassName="bg-[#F2F0EB]"
+      greetingClassName=""
+      greetingStyle={{ color: '#111111' }}
+      revealColor="#000000"
+    >
       <div className="min-h-screen bg-black text-foreground selection:bg-primary selection:text-primary-foreground font-sans">
         <Navbar />
 
