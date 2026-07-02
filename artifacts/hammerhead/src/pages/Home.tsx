@@ -228,9 +228,6 @@ export function Home() {
           </div>
         </section>
 
-        {/* ── Visual Archive ── */}
-        <VisualArchiveSection />
-
         {/* ── Process ── */}
         <ProcessSection />
 
@@ -368,6 +365,9 @@ export function Home() {
         {/* ── Sponsor Us ── */}
         <SponsorUs />
 
+        {/* ── Visual Archive ── */}
+        <VisualArchiveSection />
+
         <div className="relative z-20">
           <ScrollRevealText
             text="TRACK READY"
@@ -376,9 +376,9 @@ export function Home() {
         </div>
         
         {/* ── Footer ── */}
-        <footer className="bg-[#FF5E1A] py-12 border-t border-white/10 relative z-20">
+        <footer className="bg-[#F2F0EB] py-12 border-t border-white/10 relative z-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center justify-center gap-6">
-            <p className="text-black-500 text-sm tracking-widest uppercase">
+            <p className="text-black text-sm tracking-widest uppercase">
               © {new Date().getFullYear()} Team Hammerhead GIKI. All rights reserved.
             </p>
           </div>
