@@ -1,10 +1,10 @@
 import { InteractiveFolderGallery, type GalleryPhoto } from "@/components/InteractiveFolderGallery";
 
-import trackPhoto1 from "@assets/OMR05105_1782231093659_1782316997099.JPG";
-import trackPhoto2 from "@assets/OMR05412_1782231091330_1782316997099.JPG";
-import trackPhoto3 from "@assets/OMR05103.JPG";
-import trackPhoto4 from "@assets/OMR04964.JPG";
-import trackPhoto5 from "@assets/OMR05224.JPG";
+import trackPhoto1 from "@assets/2.png";
+import trackPhoto2 from "@assets/8.png";
+import trackPhoto3 from "@assets/9.png";
+import trackPhoto4 from "@assets/10.png";
+import trackPhoto5 from "@assets/13.JPG";
 
 const archivePhotos: GalleryPhoto[] = [
   { id: 1, image: trackPhoto1 },
@@ -38,7 +38,7 @@ export function VisualArchiveSection() {
           <div className="flex justify-center lg:justify-end">
             <InteractiveFolderGallery
               photos={archivePhotos}
-              folderName="SEM_2026.gallery"
+              folderName="Click_To_View.zip"
               dragHintText="Drag any photo down to close"
               className="py-8"
             />
