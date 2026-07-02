@@ -366,6 +366,8 @@ export function Home() {
         {/* ── Sponsor Us ── */}
         <SponsorUs />
 
+        <VisualArchiveSection />
+
         {/* ── Footer ── */}
         <footer className="bg-[#F2F0EB] py-12 border-t border-white/10 relative z-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center justify-center gap-6">
