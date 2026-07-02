@@ -1,14 +1,14 @@
 import { RollingTextList } from "@/components/RollingTextList";
 
-import trackPhoto1 from "@assets/OMR05105_1782231093659_1782316997099.JPG";
-import trackPhoto2 from "@assets/OMR05412_1782231091330_1782316997099.JPG";
-import sem2021Photo from "@assets/1st_poition_SEM_2021_1782320797278.jpeg";
-import latestPhoto from "@assets/WhatsApp_Image_2026-06-23_at_5.14.37_PM_1782320810993.jpeg";
+import trackPhoto1 from "@assets/7.png";
+import trackPhoto2 from "@assets/4.png";
+import sem2021Photo from "@assets/1.png";
+import latestPhoto from "@assets/5.png";
 
 const processItems = [
   {
     id: 1,
-    title: "Design",
+    title: "ARC-04",
     category: "Engineering",
     src: trackPhoto1,
     alt: "Vehicle design at the track",
@@ -16,7 +16,7 @@ const processItems = [
   },
   {
     id: 2,
-    title: "Build",
+    title: "ARC-03",
     category: "Fabrication",
     src: trackPhoto2,
     alt: "Building the prototype",
@@ -24,7 +24,7 @@ const processItems = [
   },
   {
     id: 3,
-    title: "Race",
+    title: "ARC-02",
     category: "Competition",
     src: sem2021Photo,
     alt: "Racing at Shell Eco-Marathon",
@@ -32,7 +32,7 @@ const processItems = [
   },
   {
     id: 4,
-    title: "Win",
+    title: "ARC-01",
     category: "Achievement",
     src: latestPhoto,
     alt: "Team celebration",
