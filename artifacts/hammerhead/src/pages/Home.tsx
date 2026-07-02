@@ -160,7 +160,7 @@ export function Home() {
                   className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-normal text-white border border-white/40 hover:bg-white/10 rounded-full transition-colors text-center"
                 >
                   Mail Us
-                </Link>
+                </a>
         
                 <a
                   href="https://instagram.com/hammerheadgiki"
