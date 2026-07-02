@@ -57,7 +57,7 @@ export function Navbar() {
         href={CONTACT_LINK}
         className="relative z-10 block px-3 py-2 text-sm font-semibold text-black bg-gradient-to-br from-gray-100 to-gray-300 rounded-full hover:from-gray-200 hover:to-gray-400 transition-all duration-200 text-center"
       >
-        Contact
+        Mail Us
       </a>
     </div>
   );
