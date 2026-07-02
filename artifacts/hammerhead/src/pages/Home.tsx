@@ -27,34 +27,34 @@ import hero4 from "@assets/heroback8.png";
 const cards = [
   {
     src: teamPhoto,
-    title: "Shell Eco-Marathon 2026",
-    category: "Competition",
+    title: "Eco-Marathon 2026",
+    category: "Shell",
     content: <p className="text-white/70">Team Hammerhead GIKI with their battery-electric prototype at Shell Eco-Marathon.</p>
     
   },
   {
     src: trackPhoto4,
-    title: "Qatar Airways Circuit",
-    category: "Racing",
+    title: "Lusail International Circuit",
+    category: "Qatar",
     content: <p className="text-white/70">Hammerhead member soaking in the moment at the iconic Qatar circuit.</p>
   },
   {
     src: trackPhoto3,
-    title: "Qatar Airways Circuit",
-    category: "Racing",
+    title: "Sepang Racing Circuit",
+    category: "Malaysia",
     content: <p className="text-white/70">Hammerhead member soaking in the moment at the iconic Qatar circuit.</p>
   },
 
   {
     src: trackPhoto5,
-    title: "Qatar Airways Circuit",
-    category: "Racing",
+    title: "SEMA Pakistan",
+    category: "Pakistan",
     content: <p className="text-white/70">Hammerhead member soaking in the moment at the iconic Qatar circuit.</p>
   },
   {
     src: trackPhoto1,
     title: "At the Track",
-    category: "Racing",
+    category: "Readt",
     content: <p className="text-white/70">Strategic planning ahead of the run at track.</p>
     
   },
