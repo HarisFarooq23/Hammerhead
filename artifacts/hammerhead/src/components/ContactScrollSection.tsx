@@ -2,7 +2,7 @@ import { ContainerScroll } from "@/components/ContainerScroll";
 import teamPhoto from "@assets/WhatsApp_Image_2025-06-13_at_20.11.20_1782231146053_1782316997099.jpeg";
 
 export const INSTAGRAM_LINK = "https://instagram.com/hammerheadgiki";
-export const CONTACT_LINK = "#contact";
+export const CONTACT_LINK = "mailto:teamhammerheadgiki@giki.edu.pk";
 
 export function ContactScrollSection() {
   return (
