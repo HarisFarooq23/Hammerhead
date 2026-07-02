@@ -265,7 +265,7 @@ export function Home() {
             </FlowSection>
 
             {/* 02 — Engineering (ORANGE) */}
-            <FlowSection aria-label="Engineering Pillars" style={{ backgroundColor: '#FF5E1A', color: '#000' }}>
+            <FlowSection aria-label="Engineering Pillars" style={{ backgroundColor: '#F2F0EB', color: '#000' }}>
               <p className="text-xs font-bold uppercase tracking-[0.25em] text-black/40">02 — Engineering</p>
               <hr className="border-none border-t border-black/20" style={{ margin: '2vw 0' }} />
               <div>
@@ -324,7 +324,7 @@ export function Home() {
             </FlowSection>
 
             {/* 04 — Team (ORANGE) */}
-            <FlowSection aria-label="Our Team" style={{ backgroundColor: '#FF5E1A', color: '#000' }}>
+            <FlowSection aria-label="Our Team" style={{ backgroundColor: '#F2F0EB', color: '#000' }}>
               <p className="text-xs font-bold uppercase tracking-[0.25em] text-black/40">04 — Our Team</p>
               <hr className="border-none border-t border-black/20" style={{ margin: '2vw 0' }} />
               <div>
