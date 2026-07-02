@@ -184,7 +184,10 @@ export function LocationMap({
         className="absolute -bottom-6 left-1/2 text-[10px] text-white/30 whitespace-nowrap"
         style={{ x: "-50%" }}
         initial={{ opacity: 0 }}
-        animate={{ opacity: isHovered && !isExpanded ? 1 : 0, y: isHovered ? 0 : 4 }}
+        animate={{
+          opacity: !isExpanded ? 1 : 0,
+          y: !isExpanded ? 0 : 4,
+        }}
         transition={{ duration: 0.2 }}
       >
         Click to expand
