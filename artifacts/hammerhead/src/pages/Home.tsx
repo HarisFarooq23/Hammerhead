@@ -371,7 +371,7 @@ export function Home() {
         <div className="relative z-20">
           <ScrollRevealText
             text="TRACK READY"
-            label="One mission. Relentless drive."
+            label="One team - One mission - One dream"
           />
         </div>
         
