@@ -13,12 +13,12 @@ import { ProcessSection } from "@/components/ProcessSection";
 import { ScrollRevealText } from "@/components/ScrollRevealText";
 
 import heroBg from "@assets/WhatsApp_Image_2025-10-14_at_12.59.14_PM_1782231125316_1782318583069.jpeg";
-import teamPhoto from "@assets/WhatsApp_Image_2025-06-13_at_20.11.20_1782231146053_1782316997099.jpeg";
-import trackPhoto1 from "@assets/OMR05105_1782231093659_1782316997099.JPG";
-import trackPhoto2 from "@assets/OMR05412_1782231091330_1782316997099.JPG";
-import trackPhoto3 from "@assets/OMR05103.JPG";
-import trackPhoto4 from "@assets/OMR04964.JPG";
-import trackPhoto5 from "@assets/OMR05224.JPG";
+import teamPhoto from "@assets/7.png";
+import trackPhoto1 from "@assets/6.png";
+import trackPhoto2 from "@assets/12.png";
+import trackPhoto3 from "@assets/3.png";
+import trackPhoto4 from "@assets/11.png";
+import trackPhoto5 from "@assets/14.png";
 import hero2 from "@assets/Inductions 2025 (2).png";
 import hero3 from "@assets/heroback7.png";
 import hero4 from "@assets/heroback8.png";
@@ -27,7 +27,7 @@ import hero4 from "@assets/heroback8.png";
 const cards = [
   {
     src: teamPhoto,
-    title: "Shell Eco-Marathon 2025",
+    title: "Shell Eco-Marathon 2026",
     category: "Competition",
     content: <p className="text-white/70">Team Hammerhead GIKI with their battery-electric prototype at Shell Eco-Marathon.</p>
     
