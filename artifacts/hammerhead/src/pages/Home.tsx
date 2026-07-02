@@ -13,9 +13,9 @@ import { ProcessSection } from "@/components/ProcessSection";
 import { ScrollRevealText } from "@/components/ScrollRevealText";
 
 import heroBg from "@assets/WhatsApp_Image_2025-10-14_at_12.59.14_PM_1782231125316_1782318583069.jpeg";
-import teamPhoto from "@assets/10.png";
+import teamPhoto from "@assets/12.png";
 import trackPhoto1 from "@assets/6.png";
-import trackPhoto2 from "@assets/12.png";
+import trackPhoto2 from "@assets/10.png";
 import trackPhoto3 from "@assets/3.png";
 import trackPhoto4 from "@assets/11.png";
 import trackPhoto5 from "@assets/14.png";
